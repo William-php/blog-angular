@@ -1,0 +1,27 @@
+.container__menu-bar {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__menu-bar > ul {
+    display: inline-flex;
+
+    list-style-type: none;
+}
+
+.container__menu-bar > ul > li {
+    margin-right: 20px;
+}
+
+.container__menu-bar > ul > li > a {
+    font-size: 18px;
+    transition: 800ms ease-in-out;
+}
+
+.container__menu-bar > ul > li > a:hover {
+    color: #808080;
+    font-weight: 600;
+}
